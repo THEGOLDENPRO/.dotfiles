@@ -6,6 +6,8 @@
 
   <img src="./desktop_showcase.png">
 
+  <br>
+
 </div>
 
 Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really special here though, just some configs and wallpapers I like carrying around different systems but my dotfiles are public just in case anyone wants anything from it.
@@ -17,3 +19,8 @@ For example, you want my wallpapers? CD into my repo and symlink them with `stow
 stow wallpapers
 ```
 > It should be in your ~/Pictures folder now.
+
+Then if you want to remove it, run this:
+```sh
+stow -D wallpapers
+```
