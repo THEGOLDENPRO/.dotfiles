@@ -6,6 +6,8 @@
 
   <img src="./desktop_showcase.png">
 
+  <br>
+
 </div>
 
 Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really special here though, just some configs and wallpapers I like carrying around different systems but my dotfiles are public just in case anyone wants anything from it.
