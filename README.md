@@ -19,3 +19,8 @@ For example, you want my wallpapers? CD into my repo and symlink them with `stow
 stow wallpapers
 ```
 > It should be in your ~/Pictures folder now.
+
+Then if you want to remove it, run this:
+```sh
+stow -D wallpapers
+```
