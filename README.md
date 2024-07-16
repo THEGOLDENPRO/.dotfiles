@@ -24,3 +24,17 @@ Then if you want to remove it, run this:
 ```sh
 stow -D wallpapers
 ```
+
+and etc etc...
+
+## Fastfetch config
+
+<div align="center">
+
+  <img width="600px" src="./terminal_showcase.png">
+
+</div>
+
+```sh
+stow kitty fastfetch
+```
