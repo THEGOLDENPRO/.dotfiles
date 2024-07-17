@@ -30,7 +30,7 @@ and etc etc...
 
 ## Wallpapers
 
-<img width="800px" src="https://github.com/user-attachments/assets/63640274-510d-4599-9515-41b49aa94b93">
+<img width="800px" src="./wallpaper_example.jpg">
 
 ```sh
 git submodule init && git submodule update
