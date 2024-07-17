@@ -4,7 +4,7 @@
 
   <sub>My current dotfiles. I only really use this to sync my config files and share wallpapers atm.</sub>
 
-  <img src="./desktop_showcase.png">
+  <img src="./desktop_showcase_2.png">
 
   <br>
 
