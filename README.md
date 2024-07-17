@@ -14,27 +14,26 @@ Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really spe
 
 I've designed the repo in such a way you can just pick and choose what you wanna add to your existing system. I recommend [GNU stow](https://www.gnu.org/software/stow/) to achieve this. 
 
-For example, you want my wallpapers? CD into my repo and symlink them with `stow`:
+For example, you want my fastfetch and kitty config? CD into my repo and symlink them with `stow`:
 ```sh
-stow wallpapers
+stow kitty fastfetch
 ```
-> It should be in your ~/Pictures folder now.
 
-Then if you want to remove it, run this:
+<img width="600px" src="./terminal_showcase.png">
+
+Then if you want to remove them, run this:
 ```sh
-stow -D wallpapers
+stow -D kitty fastfetch
 ```
 
 and etc etc...
 
-## Fastfetch config
+## Wallpapers
 
-<div align="center">
-
-  <img width="600px" src="./terminal_showcase.png">
-
-</div>
+<img width="800px" src="https://github.com/user-attachments/assets/63640274-510d-4599-9515-41b49aa94b93">
 
 ```sh
-stow kitty fastfetch
+git submodule init && git submodule update
+stow wallpapers
 ```
+> They should be in your ~/Pictures folder now.
