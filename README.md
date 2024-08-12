@@ -29,7 +29,6 @@ stow -D kitty fastfetch
 and etc etc...
 
 ## Wallpapers
-
 <img width="800px" src="./wallpaper_example.jpg">
 
 ```sh
@@ -37,3 +36,8 @@ git submodule init && git submodule update
 stow wallpapers
 ```
 > They should be in your ~/Pictures folder now.
+
+If I add new wallpapers at [my wallpapers repo](https://github.com/THEGOLDENPRO/wallpapers) and you would also like them just update the submodule like so:
+```sh
+git submodule update --remote
+```
