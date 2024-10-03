@@ -1289,6 +1289,7 @@ user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.sessions", false);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("browser.display.use_system_colors", true);
+user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false); // was added recently in FF
 
 // Preferences
 user_pref("browser.startup.page", 1);
