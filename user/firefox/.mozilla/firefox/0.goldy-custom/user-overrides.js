@@ -14,6 +14,7 @@ user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("privacy.clearOnShutdown.openWindows", false);
 user_pref("browser.search.suggest.enabled", true);
 user_pref("browser.urlbar.suggest.searches", true);
+user_pref("browser.toolbars.bookmarks.visibility", "never");
 
 // Weird fixes
 user_pref("widget.chrome.allow-gtk-dark-theme", true); // dark mode fix
