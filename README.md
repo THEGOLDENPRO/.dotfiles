@@ -49,7 +49,7 @@ stow -D kitty fastfetch
 and etc etc...
 
 ## Firefox
-<img width="800px" src="./https://github.com/user-attachments/assets/7d674046-768e-4365-b958-c2c35ed2a7b9">
+<img width="800px" src="./firefox_showcase.png">
 
 ```sh
 cd user
