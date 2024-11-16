@@ -10,6 +10,9 @@
 
 </div>
 
+> [!WARNING]
+> You must cd into one of the parent directories listed below or when I say "CD", as each one of these directories tells GNU stow where to dump the dotfiles.
+
 Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really special here though, just some configs and wallpapers I like carrying around different systems but my dotfiles are public just in case anyone wants anything from it.
 
 ```
@@ -30,7 +33,7 @@ Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really spe
 
 I've designed the repo in such a way you can just pick and choose what you wanna add to your existing system. I recommend [GNU stow](https://www.gnu.org/software/stow/) to achieve this. 
 
-For example, you want my fastfetch and kitty config? Cd into my repo, then cd into "user" and symlink them with `stow`:
+For example, you want my fastfetch and kitty config? CD into my repo, then cd into "user" and symlink them with `stow`:
 ```sh
 cd user
 stow kitty fastfetch
@@ -44,6 +47,22 @@ stow -D kitty fastfetch
 ```
 
 and etc etc...
+
+## Firefox
+<img width="800px" src="./firefox_showcase.png">
+
+```sh
+cd user
+stow firefox
+
+# Append goldy-custom firefox profile into your firefox profiles config
+cat ~/.mozilla/firefox/gc_profiles_append.ini >> ~/.mozilla/firefox/profiles.ini
+```
+
+Open tabs to the home pages of all the extenions I use in firefox:
+```sh
+xargs -a ~/.mozilla/firefox/gc_ext.txt -I {} firefox "{}" &
+```
 
 ## Wallpapers
 <img width="800px" src="./wallpaper_example.jpg">
