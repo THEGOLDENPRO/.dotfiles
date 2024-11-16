@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p ~/.cache/beam-mp-launcher
+cd ~/.cache/beam-mp-launcher
+
+BeamMP-Launcher "$@"
