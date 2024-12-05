@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Games
+Comment[en_GB]=Bringing Multiplayer to BeamNG.drive! With a smooth and enjoyable experience.
+Comment=Bringing Multiplayer to BeamNG.drive! With a smooth and enjoyable experience.
+Exec=/home/goldy/.local/bin/beammp
+GenericName[en_GB]=
+GenericName=
+Icon=steam_icon_284160
+MimeType=
+Name[en_GB]=BeamMP Launcher
+Name=BeamMP Launcher
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
