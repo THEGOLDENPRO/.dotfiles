@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[includeIf "gitdir:~/.dotfiles/"]
+    path = .gitconfig_goldy
+
+[includeIf "gitdir:~/Documents/projects/goldy/"]
+    path = .gitconfig_goldy
+[includeIf "gitdir:~/Documents/projects/goldyv2/"]
+    path = .gitconfig_goldyv2
+[core]
+	editor = nano
