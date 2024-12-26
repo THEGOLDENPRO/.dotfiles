@@ -1,0 +1,50 @@
+version = 1
+
+[image]
+
+[image.loading]
+# Setting this to "true" will make the image load on a separate thread to the GUI initially. This
+# means the GUI may load up before the image is ready to display itself. Will this improve load times? idk 🤷
+initial.lazy_loading = false
+
+# Lazy loading but this is now for when you open and load an image from the GUI.
+# For example: Picking an image from the file picker or dropping an image into the window.
+gui.lazy_loading = true
+
+# Setting this to "false" will make dynamic scaling reload images on the main thread. It's not 
+# recommended to set this to "false" as it will lead to the GUI freezing each time you try to zoom in/out.
+dynamic.lazy_loading = true
+
+[ui]
+
+[ui.magnification_panel]
+# Setting this to "true" will enable the magnification panel by default.
+enabled_default = false
+
+[ui.viewport]
+# Adjust this value to control the spacing between the image and the edge of the window.
+padding = 2
+
+[key_binds]
+info_box.toggle = "I"
+about_box.toggle = "A"
+# Keybind to reset the image pan 
+# position and zoom scale back to default.
+image.reset_pos = "R"
+# Keybind to toggle all your UI controlls like the magnification panel.
+ui_controls.toggle = "C"
+
+[misc]
+# All other configs that don't yet have a specific place or are experimental.
+
+[misc.experimental]
+# Settings to toggle experimental features that aren't yet ready to be
+# used by the wider user audience. This exists for the sole purpose of testing.
+# 
+# Remember these are EXPERIMENTAL, bugs WILL be present.
+
+
+# Setting this to true will enable the experimental lanczos roseate image processing backend
+# which is faster than the image-rs backend but may result in buggy/blocky images. 
+# Disable this if the image looks weird.
+use_fast_roseate_backend = false
