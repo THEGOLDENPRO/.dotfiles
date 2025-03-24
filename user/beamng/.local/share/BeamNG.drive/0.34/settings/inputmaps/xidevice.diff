@@ -5,20 +5,16 @@
       "control":"btn_x"
     },
     {
-      "action":"toggle_right_signal",
-      "control":"btn_r"
-    },
-    {
-      "action":"pause",
-      "control":"btn_back"
+      "action":"switch_camera_next",
+      "control":"btn_start"
     },
     {
       "action":"look_back",
       "control":"btn_y"
     },
     {
-      "action":"switch_camera_next",
-      "control":"btn_start"
+      "action":"pause",
+      "control":"btn_back"
     },
     {
       "action":"shiftDown",
@@ -35,6 +31,10 @@
     {
       "action":"horn",
       "control":"btn_lt"
+    },
+    {
+      "action":"toggle_right_signal",
+      "control":"btn_r"
     }
   ],
   "devicetype":"xinput",
@@ -42,7 +42,7 @@
     "Xbox 360 compatible controller",
     "Xbox One compatible controller"
   ],
-  "ffbSupported":"<div class='bng-hw ffb-partial'></div> <div class='bng-hw trueforce-partial'></div>",
+  "ffbSupported":"<div class='bng-hw ffb-partial'></div> <div class='bng-hw vibration-partial'></div>",
   "guid":"050000004c050000cc09000000810000",
   "name":"PS4 Controller",
   "notes":"Force feedback only works if the steering wheel manufacturer advertises it to **also** be compatible with DirectInput (sometimes referred to as 'PC', 'Windows' or 'DInput' mode).<br>Vibration is **not** officially supported (it is only experimental, you would need to enable ffb in-game, and set the device to 'Console', 'XBox or 'XInput' mode).",
@@ -56,8 +56,8 @@
       "control":"btn_r"
     },
     {
-      "action":"toggle_slow_motion",
-      "control":"upov"
+      "action":"shiftUp",
+      "control":"btn_a"
     },
     {
       "action":"pause",
@@ -72,8 +72,8 @@
       "control":"btn_y"
     },
     {
-      "action":"shiftUp",
-      "control":"btn_a"
+      "action":"toggle_slow_motion",
+      "control":"upov"
     },
     {
       "action":"toggleMenues",
