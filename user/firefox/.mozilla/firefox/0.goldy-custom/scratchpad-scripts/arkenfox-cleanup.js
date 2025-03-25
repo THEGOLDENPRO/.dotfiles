@@ -6,7 +6,7 @@
   There is an archived version at https://github.com/arkenfox/user.js/issues/123
   if you want the full list since jesus
 
-  Last updated: 2-November-2023
+  Last updated: 5-March-2025
 
   Instructions:
   - [optional] close Firefox and backup your profile
@@ -35,7 +35,12 @@
 
   const aPREFS = [
     /* DEPRECATED */
+    /* 129-140 */
+    'webchannel.allowObject.urlWhitelist', // 132
     /* 116-128 */
+    'browser.contentanalysis.default_allow', // 127
+    'browser.messaging-system.whatsNewPanel.enabled', // 126
+    'browser.ping-centre.telemetry', // 123
     'dom.webnotifications.serviceworker.enabled', // 117
     'javascript.use_us_english_locale', // 119
     'layout.css.font-visibility.private', // 118
@@ -45,6 +50,7 @@
     'network.dns.skipTRR-when-parental-control-enabled', // 119
     'permissions.delegation.enabled', // 118
     'security.family_safety.mode', // 117
+    'widget.non-native-theme.enabled', // 127
     /* 103-115 */
     'browser.cache.offline.enable', // 115
     'extensions.formautofill.heuristics.enabled', // 114
@@ -67,10 +73,29 @@
     'security.ssl3.rsa_des_ede3_sha', // 93
 
     /* REMOVED */
+    /* 129-140 */
+    'dom.securecontext.allowlist_onions',
+    'network.http.referer.hideOnionSource',
+    'privacy.clearOnShutdown.cache',
+    'privacy.clearOnShutdown.cookies',
+    'privacy.clearOnShutdown.downloads',
+    'privacy.clearOnShutdown.formdata',
+    'privacy.clearOnShutdown.history',
+    'privacy.clearOnShutdown.offlineApps',
+    'privacy.clearOnShutdown.sessions',
+    'privacy.cpd.cache',
+    'privacy.cpd.cookies',
+    'privacy.cpd.formdata',
+    'privacy.cpd.history',
+    'privacy.cpd.offlineApps',
+    'privacy.cpd.sessions',
     /* 116-128 */
     'browser.fixup.alternate.enabled',
     'browser.taskbar.previews.enable',
     'browser.urlbar.dnsResolveSingleWordsAfterSearch',
+    'geo.provider.network.url',
+    'geo.provider.network.logging.enabled',
+    'geo.provider.use_gpsd',
     'media.gmp-widevinecdm.enabled',
     'network.protocol-handler.external.ms-windows-store',
     'privacy.partition.always_partition_third_party_non_cookie_storage',
