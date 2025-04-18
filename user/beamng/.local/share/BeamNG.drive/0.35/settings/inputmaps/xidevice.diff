@@ -5,16 +5,8 @@
       "control":"btn_x"
     },
     {
-      "action":"switch_camera_next",
-      "control":"btn_start"
-    },
-    {
       "action":"look_back",
       "control":"btn_y"
-    },
-    {
-      "action":"pause",
-      "control":"btn_back"
     },
     {
       "action":"shiftDown",
@@ -35,6 +27,14 @@
     {
       "action":"toggle_right_signal",
       "control":"btn_r"
+    },
+    {
+      "action":"switch_camera_next",
+      "control":"btn_start"
+    },
+    {
+      "action":"pause",
+      "control":"btn_back"
     }
   ],
   "devicetype":"xinput",
@@ -43,7 +43,7 @@
     "Xbox One compatible controller"
   ],
   "ffbSupported":"<div class='bng-hw ffb-partial'></div> <div class='bng-hw vibration-partial'></div>",
-  "guid":"050000004c050000cc09000000810000",
+  "guid":"03008fe54c050000cc09000000006800",
   "name":"PS4 Controller",
   "notes":"Force feedback only works if the steering wheel manufacturer advertises it to **also** be compatible with DirectInput (sometimes referred to as 'PC', 'Windows' or 'DInput' mode).<br>Vibration is **not** officially supported (it is only experimental, you would need to enable ffb in-game, and set the device to 'Console', 'XBox or 'XInput' mode).",
   "removed":[
@@ -52,32 +52,40 @@
       "control":"btn_x"
     },
     {
-      "action":"parkingbrake",
-      "control":"btn_r"
+      "action":"switch_camera_next",
+      "control":"btn_b"
     },
     {
       "action":"shiftUp",
       "control":"btn_a"
     },
     {
-      "action":"pause",
-      "control":"btn_start"
+      "action":"menu_tab_left",
+      "control":"btn_l"
     },
     {
-      "action":"switch_camera_next",
-      "control":"btn_b"
+      "action":"menu_tab_right",
+      "control":"btn_r"
+    },
+    {
+      "action":"parkingbrake",
+      "control":"btn_r"
+    },
+    {
+      "action":"toggleMenues",
+      "control":"btn_back"
+    },
+    {
+      "action":"pause",
+      "control":"btn_start"
     },
     {
       "action":"toggleBigMap",
       "control":"btn_y"
     },
     {
-      "action":"toggle_slow_motion",
+      "action":"toggleRadialMenuMulti",
       "control":"upov"
-    },
-    {
-      "action":"toggleMenues",
-      "control":"btn_back"
     }
   ],
   "version":1,
