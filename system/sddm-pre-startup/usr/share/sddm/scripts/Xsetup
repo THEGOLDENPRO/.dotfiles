@@ -1,0 +1,5 @@
+#!/bin/sh
+# Xsetup - run as root before the login dialog appears
+
+# Disable my second monitor on SDDM boot
+xrandr --output HDMI-A-0 --off
