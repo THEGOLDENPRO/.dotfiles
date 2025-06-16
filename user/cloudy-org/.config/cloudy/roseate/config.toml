@@ -17,6 +17,11 @@ gui.lazy_loading = true
 # recommended to set this to "false" as it will lead to the GUI freezing each time you try to zoom in/out.
 dynamic.lazy_loading = true
 
+[image.optimizations]
+# mode = "default"
+
+monitor_downsampling = true
+
 [ui]
 
 [ui.magnification_panel]
@@ -39,4 +44,8 @@ ui_controls.toggle = "C"
 # override_monitor_size = {width = 1280, height = 720}
 
 [misc.experimental]
-use_fast_roseate_backend = true
+#use_fast_roseate_backend = true
+#image_processing_backend = "zune-image"
+#image_processing_backend = "image-rs"
+#image_processing_backend = "roseate"
+use_dynamic_sampling_optimization = true

@@ -1,0 +1,8 @@
+[Unit]
+Description=Second monitor fix
+
+[Service]
+ExecStart=%h/.local/bin/kwin-monitor-fix.sh
+
+[Install]
+WantedBy=plasma-workspace.target
