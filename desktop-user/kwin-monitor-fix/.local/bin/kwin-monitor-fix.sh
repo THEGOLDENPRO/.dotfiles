@@ -6,12 +6,12 @@
 count = 0
 
 attempt_monitor_disable () {
-    if kscreen-doctor -o 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | grep "Scale: 1.05"; then
-        echo "Detected 'Scale: 1.05' — disabling HDMI-A-1 (second monitor)"
+    if kscreen-doctor -o 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | grep -F '1920x1080@60*!'; then
+        echo "Detected incorrect monitor — re-enabling HDMI-A-1 (second monitor)"
         kscreen-doctor output.HDMI-A-1.disable
         return 0
     else
-        echo "Scale is not 1.05 — did not disable second monitor."
+        echo "Couldn't find incorrect monitor — did not re-enable second monitor."
         return 1
     fi
 }
