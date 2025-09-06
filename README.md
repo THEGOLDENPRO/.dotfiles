@@ -25,7 +25,11 @@ Hi this is Goldy and this is where I store my Linux dotfiles. Nothing really spe
 ├── system (Root directory stuff: '/etc' and so on)
 │   ├── libvirt
 │   └── ...
-├── laptop (Laptop specific home dir stuff)
+├── laptop-user (Home dir but laptop specific)
+│   ├── kitty
+│   ├── fastfetch
+│   └── ...
+├── desktop-user (Home dir but desktop specific)
 │   ├── kitty
 │   ├── fastfetch
 │   └── ...
