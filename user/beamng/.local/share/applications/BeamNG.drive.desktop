@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=
+Exec=env AMD_VULKAN_ICD=RADV SDL_VIDEODRIVER=wayland /mnt/GamesLinux/SteamLibrary/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64
+Icon=BeamNG.drive
+Name=BeamNG.drive
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+StartupWMClass=BeamNG.drive.x64
+Terminal=true
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
