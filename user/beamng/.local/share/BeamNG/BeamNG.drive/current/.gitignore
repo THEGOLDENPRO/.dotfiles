@@ -1,9 +1,9 @@
 *
 
-!inputmaps/
-!inputmaps/*
+!settings/
+!settings/*
 
-!beammp/
-!beammp/*
+!vehicles/
+!vehicles/*
 
 !.gitignore
