@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=
-Exec=env AMD_VULKAN_ICD=RADV SDL_VIDEODRIVER=wayland /mnt/GamesLinux/SteamLibrary/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64
+Exec=env AMD_VULKAN_ICD=RADV SDL_VIDEODRIVER=x11 /mnt/GamesLinux/SteamLibrary/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64
 Icon=BeamNG.drive
 Name=BeamNG.drive
 NoDisplay=false
