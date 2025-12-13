@@ -1,9 +1,13 @@
 *
 
-!settings/
-!settings/*
-
 !vehicles/
 !vehicles/*
+
+!settings/
+!settings/*
+!settings/inputmaps/wheel.csv
+
+# !settings/inputmaps
+# !settings/inputmaps/*
 
 !.gitignore
