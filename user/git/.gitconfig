@@ -11,5 +11,7 @@
     path = .gitconfig_goldy
 [includeIf "gitdir:~/Documents/projects/goldyv2/"]
     path = .gitconfig_goldyv2
+[includeIf "gitdir:~/Documents/projects/cov/"]
+    path = .gitconfig_cov
 [core]
 	editor = nano

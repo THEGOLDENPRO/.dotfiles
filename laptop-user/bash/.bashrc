@@ -12,3 +12,8 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias neofetch="fastfetch"
+. "$HOME/.cargo/env"
+
+export TERM=xterm
+
+export CARGO_BUILD_JOBS=6
