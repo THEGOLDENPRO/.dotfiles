@@ -1,0 +1,10 @@
+*
+
+!bx/
+!bx/*
+!etki/
+!etki/*
+!vivace/
+!vivace/*
+
+!.gitignore
