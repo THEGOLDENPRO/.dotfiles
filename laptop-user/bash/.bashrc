@@ -15,5 +15,6 @@ alias neofetch="fastfetch"
 . "$HOME/.cargo/env"
 
 export TERM=xterm
-
 export CARGO_BUILD_JOBS=6
+
+export PATH="$PATH:/home/goldy/.local/bin"
