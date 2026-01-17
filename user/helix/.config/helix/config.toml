@@ -1,0 +1,27 @@
+[editor]
+
+[keys.normal]
+"up" = "no_op"
+"down" = "no_op"
+"left" = "no_op"
+"right" = "no_op"
+
+"C-," = "hover"
+
+[keys.select]
+"up" = "no_op"
+"down" = "no_op"
+"left" = "no_op"
+"right" = "no_op"
+
+[keys.insert]
+"up" = "no_op"
+"down" = "no_op"
+"left" = "no_op"
+"right" = "no_op"
+
+# replication of vscode keybind to show completion menu
+"C-space" = "completion"
+
+# exit insert mode
+j = { k = "normal_mode" }
