@@ -1,9 +1,0 @@
-*
-
-!inputmaps/
-!inputmaps/*
-
-!beammp/
-!beammp/*
-
-!.gitignore
