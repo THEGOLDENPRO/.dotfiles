@@ -6,16 +6,16 @@ version = 1
 initial.lazy_loading = false
 gui.lazy_loading = true
 
-[image.backend]
-decoder = "image-rs"
-
 [image.optimizations]
 mode = "default"
 
-monitor_downsampling = true
+monitor_downsampling = { enabled = true, strength = 1.4 }
 experimental_consume_pixels_during_gpu_upload = true
 experimental_dynamic_sampling = false
 experimental_multi_threaded_sampling = true
+
+[image.backend]
+decoder = "image-rs"
 
 [ui]
 
@@ -32,7 +32,7 @@ animate_fit_to_window = true
 animate_reset = true
 
 [ui.selection_menu]
-show_open_image_button = false
+show_open_image_button = true
 
 [key_binds]
 show_image_info = "I"

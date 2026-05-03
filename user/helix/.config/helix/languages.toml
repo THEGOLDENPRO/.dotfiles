@@ -5,3 +5,7 @@ args = ["serve"]
 [[language]]
 name = "rust"
 language-servers = ["rust-analyzer", "codebook"]
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman", "codebook"]

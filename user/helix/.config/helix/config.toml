@@ -8,6 +8,8 @@
 
 "C-," = "hover"
 
+"t" = "insert_mode"
+
 [keys.select]
 "up" = "no_op"
 "down" = "no_op"
