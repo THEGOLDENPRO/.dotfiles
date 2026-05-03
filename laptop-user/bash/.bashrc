@@ -14,6 +14,8 @@ PS1='[\u@\h \W]\$ '
 alias neofetch="fastfetch"
 . "$HOME/.cargo/env"
 
+alias heaptrack="heaptrack -o /tmp/heaptrack.gz"
+
 export TERM=xterm
 export CARGO_BUILD_JOBS=6
 
