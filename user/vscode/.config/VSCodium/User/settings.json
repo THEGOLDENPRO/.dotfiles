@@ -4,5 +4,8 @@
   },
   "cSpell.language": "en-GB",
   "workbench.colorTheme": "Dark Modern",
-  "discord.detailsIdling": "Procrastinating..."
+  "discord.detailsIdling": "Procrastinating...",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false
 }
