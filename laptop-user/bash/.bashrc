@@ -15,6 +15,7 @@ alias neofetch="fastfetch"
 . "$HOME/.cargo/env"
 
 alias heaptrack="heaptrack -o /tmp/heaptrack.gz"
+alias code="codium"
 
 export TERM=xterm
 export CARGO_BUILD_JOBS=6
