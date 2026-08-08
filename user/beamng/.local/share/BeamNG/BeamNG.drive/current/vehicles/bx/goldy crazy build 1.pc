@@ -43,8 +43,8 @@
     }
   ],
   "parts":{
-    "brakepad_F":"brakepad_F_semi_race",
-    "brakepad_R":"brakepad_R_semi_race",
+    "brakepad_F":"brakepad_F_race",
+    "brakepad_R":"brakepad_R_race",
     "bx_ABS":"bx_ABS",
     "bx_body":"bx_body_hatch",
     "bx_brake_F":"bx_brake_F_race",
